@@ -98,7 +98,7 @@ class ZhihuUserSpider(scrapy.Spider):
                 response.xpath('//div[@class="profile-navbar clearfix"]//a/span[@class="num"]/text()').extract(),
                 index=0)
         item['answers_num'] = self.get_num_from_list(
-                response.xpath('//div[@class="profile-navbar clearfix"]//a/span[@class="num"]/text()').extract(),gst
+                response.xpath('//div[@class="profile-navbar clearfix"]//a/span[@class="num"]/text()').extract(),
                 index=1)
         item['posts_num'] = self.get_num_from_list(
                 response.xpath('//div[@class="profile-navbar clearfix"]//a/span[@class="num"]/text()').extract(),
