@@ -19,7 +19,7 @@ djangorestframework-xml==1.0.1
 djangorestframework-yaml==1.0.2
 elasticsearch==1.6.0
 enum34==1.0.4
-Flask==0.10.1
+Flask==1.0
 idna==2.0
 ipaddress==1.0.14
 itsdangerous==0.24
